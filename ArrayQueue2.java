@@ -4,7 +4,7 @@ public class ArrayQueue2 <E>{
 	
 	private E[] q;
 	private int front, rear, size;
-	public ArrayQueue() {
+	public ArrayQueue2() {
 		q = (E[]) new Object[2];
 		front = rear = size = 0;
 	}
